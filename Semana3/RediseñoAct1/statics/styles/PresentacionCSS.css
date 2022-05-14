@@ -1,0 +1,95 @@
+/* ------------------fuentes-------------------------------*/
+
+@font-face{
+    font-family: "Mi fuente";
+    src: url("../fonts/Pacifico-Regular.ttf");
+    
+}
+
+@font-face {
+    font-family: "Mi fuente 2";
+    src: url("../fonts/Ubuntu-Bold.ttf");
+}
+
+/*------------------BODY----------------------*/
+
+body {
+    box-sizing: content-box;
+    background-image: url("../images/negro.jpg");
+    background-size: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 10px solid cornflowerblue;
+    border-style: dashed;
+}
+
+/*------------------Elements----------------------*/
+
+h1{
+    font-family: "Mi fuente", "Lucida Handwriting", cursive;
+    color: rgb(255, 255, 255);
+    position: relative;
+    left: 42%;
+    position: fixed;
+    z-index: 4;
+}
+
+#th{
+    font-family: "Mi fuente 2", "Lucida Handwriting", cursive;
+    color: rgb(255, 255, 255);
+}
+
+/*------------------Components----------------------*/
+
+#avatar{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    z-index: 3;
+}
+
+#box1, #box2, #box3{
+    border: 7px;
+    border-radius: 3% 3% 3% 3%;
+}
+
+#box1{
+    background-color:cadetblue;
+    position: relative;
+    width: 150px;
+    height: 120px;
+    top: 0%;
+    left: 1%;   
+}
+
+#box2{
+    background-color:beige;
+    position: relative;
+    width: 180px;
+    height: 150px;
+    top: 0%;
+    left: 10%;   
+}
+
+#box3{
+    background-color:antiquewhite;
+    position: absolute;
+    width: 150px;
+    height: 120px;
+    top: 18%;
+    left: 20%;  
+}
+
+#desbordamiento{
+    width: 200px;
+    height: 200px;
+    background-color: cornflowerblue;
+    overflow: scroll;
+    position: absolute;
+    top: 20%;
+    left: 70%;
+}
+
+#ftabla{
+    background-color: dimgrey;
+}
+
