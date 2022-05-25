@@ -1,0 +1,29 @@
+h1{
+    font-family: 'Georgia';
+    color:cornflowerblue;
+    position: relative;
+    text-align: center;
+}
+
+#estrellas{
+
+    position: absolute;
+    top: 12%;
+    text-align: center;
+    border-radius: 25px;
+    background-color:darkgrey;
+    width: 400px;
+    height: 550px;
+    font-family:'Verdana';
+}
+
+body{
+    background-color:lightsalmon;
+    background-size: cover;
+    background-repeat: repeat-x;
+    display: flex;
+    justify-content: center;
+}
+
+
+
